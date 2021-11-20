@@ -1,4 +1,4 @@
-## Deep k-Means
+## Deep k-Means (Pytorch)
 This code is the prototype of a unsupervised learning model consisting of a convolutional autoencoder and k-Means. To check the implementation, the MNIST dataset is used.
 
 ##  Hyperparameters
@@ -26,7 +26,7 @@ $ python main.py --mode eval --latent_size 10 --pret './_'
 ```
 
 ## Results
-Test accuracy: 79.9%
+Test accuracy: 80.5%
 
 <img width="352" alt="스크린샷 2021-11-21 00 06 26" src="https://user-images.githubusercontent.com/52735725/142743628-a95272dd-7348-4dde-9e6b-219c67be8052.png">
 
