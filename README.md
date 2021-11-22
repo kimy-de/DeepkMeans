@@ -26,10 +26,17 @@ $ python main.py --mode eval --latent_size 10 --pret './_'
 ```
 
 ## Results
-Test accuracy: 80.5%
+batch_size = 128,
+num_clusters = 10,
+latent_size = 10,
+T1 = 50,
+T2 = 200,
+lam = 1e-3,
+ls = 0.05
 
-<img width="352" alt="스크린샷 2021-11-21 00 06 26" src="https://user-images.githubusercontent.com/52735725/142743628-a95272dd-7348-4dde-9e6b-219c67be8052.png">
+Test accuracy: 89.4%
 
+<img width="400" alt="tsne" src="https://user-images.githubusercontent.com/52735725/142823444-c210738f-f26b-4fdd-98d0-3b9b2ad164b5.png">
 <img width="400" alt="스크린샷 2021-11-21 00 05 38" src="https://user-images.githubusercontent.com/52735725/142743644-83f81faa-b478-41da-befc-b2c0391d2809.png">
 
 ## To do
